@@ -1,0 +1,35 @@
+version: 1
+sources:
+  - id: techcrunch
+    name: TechCrunch
+    type: rss
+    url: https://techcrunch.com/feed/
+    trust: 0.95
+    tags: [startups, tech]
+
+  - id: theverge
+    name: The Verge
+    type: rss
+    url: https://www.theverge.com/rss/index.xml
+    trust: 0.92
+    tags: [gadgets, tech]
+
+  - id: arstechnica
+    name: Ars Technica
+    type: rss
+    url: https://feeds.arstechnica.com/arstechnica/index
+    trust: 0.93
+    tags: [tech, security]
+
+  - id: wired
+    name: WIRED
+    type: rss
+    url: https://www.wired.com/feed/rss
+    trust: 0.9
+    tags: [tech]
+
+  - id: hn_frontpage
+    name: Hacker News (top)
+    type: hn_top
+    trust: 0.88
+    tags: [dev, startups]
